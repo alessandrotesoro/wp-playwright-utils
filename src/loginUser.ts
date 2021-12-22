@@ -4,7 +4,7 @@ import { chromium } from '@playwright/test';
  * Performs log in with specified username and password.
  *
  * @param {string} username String to be used as user credential.
- * @param {string} password String to be used as user credential.
+ * @param {string} password String to be used as password credential.
  */
 const loginUser = async ( username: string, password: string ) => {
 	const browser = await chromium.launch();
